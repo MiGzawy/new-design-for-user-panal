@@ -1,0 +1,69 @@
+.nv-container{
+    height: 60px;
+    
+}
+.nv-container .nv-wrapper{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nv-container .nv-wrapper .nv-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.nv-container .nv-wrapper .nv-center{
+    text-align: center;
+    flex: 1;
+}
+.nv-container .nv-wrapper .nv-center .nv-logo h1{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    animation: slideInDown 1.5s;
+   
+}
+.nv-container .nv-wrapper .nv-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nv-container .nv-wrapper .nv-right .nv-menu{
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 25px;
+    animation: pulse 2.5s;
+}
+.nv-container .nv-wrapper .nv-right .nv-menu p{
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 25px;
+    animation: pulse 2.5s;
+}
+.nv-container .nv-wrapper .nv-right .nv-list{
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 25px;
+    animation: pulse 2.5s;
+}
+.nv-container .nv-wrapper .nv-left .nv-lang{
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    animation: slideInLeft 2.5s;
+}
+.nv-container .nv-wrapper .nv-left .nv-search{
+    box-shadow: 0 3px 2px green;
+    border: 0.5px solid lightgray;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    padding: 5px;
+    animation: pulse 2.5s;
+}
+.nv-container .nv-wrapper .nv-left .nv-search .nv-input{
+    border: none;
+    outline: none;
+}
