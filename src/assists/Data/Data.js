@@ -47,7 +47,7 @@ export const sliderItems = [
     },
     {
       id:2,
-      img:"https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+      img:"https://o.remove.bg/downloads/11f1ffe7-7ac2-4735-956c-0057318b40c5/milada-vigerova-p8Drpg_duLw-unsplash-removebg-preview.png",
     },
     {
       id:3,
@@ -67,7 +67,7 @@ export const sliderItems = [
     },
     {
       id:7,
-      img:"https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+      img:"https://o.remove.bg/downloads/1ba4f5cf-5a78-4987-89f2-fa982b23f904/photo-1591047139829-d91aecb6caea-removebg-preview.png",
     },
     {
       id:8,

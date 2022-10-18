@@ -35,24 +35,37 @@
     cursor: pointer;
     margin-left: 25px;
     animation: pulse 2.5s;
+    /* transform: scale(1.1); */
+}
+.nv-container .nv-wrapper .nv-right .nv-menu:hover{
+    transform: scale(1.1);
 }
 .nv-container .nv-wrapper .nv-right .nv-menu p{
     font-size: 14px;
     cursor: pointer;
     margin-left: 25px;
     animation: pulse 2.5s;
+    
 }
 .nv-container .nv-wrapper .nv-right .nv-list{
     font-size: 14px;
     cursor: pointer;
     margin-left: 25px;
     animation: pulse 2.5s;
+    
+}
+.nv-container .nv-wrapper .nv-right .nv-list:hover{
+    transform: scale(1.1);
 }
 .nv-container .nv-wrapper .nv-left .nv-lang{
     font-size: 14px;
     font-weight: 500;
     cursor: pointer;
     animation: slideInLeft 2.5s;
+    
+}
+.nv-container .nv-wrapper .nv-left .nv-lang:hover{
+    transform: scale(1.1);
 }
 .nv-container .nv-wrapper .nv-left .nv-search{
     box-shadow: 0 3px 2px green;

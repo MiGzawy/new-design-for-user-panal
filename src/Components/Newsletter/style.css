@@ -1,0 +1,38 @@
+.sletter-container{
+    height: 60vh;
+    background-color: #fcf5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sletter-container .sletter-title h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.sletter-container .sletter-desc h1{
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.sletter-container .sletter-inCon{
+    width: 50%;
+    height: 40px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+}
+.sletter-container .sletter-inCon input{
+    border: none;
+    flex: 8;
+    outline: none;
+    box-shadow: 0 10px 25px lightblue;
+    padding-left: 20px;
+}
+.sletter-container .sletter-inCon button{
+    flex: 1;
+    border: none;
+    background-color:lightblue ;
+    color: #fff;
+}
